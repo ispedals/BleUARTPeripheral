@@ -232,7 +232,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         AdvertiseData data = new AdvertiseData.Builder()
-                .setIncludeDeviceName(true)
+                .setIncludeDeviceName(false)
                 .addServiceUuid(new ParcelUuid(UARTProfile.UART_SERVICE))
                 .build();
 
